@@ -323,8 +323,37 @@
                 }
             },
             "re-release": {
+                "name": "地球上最后的夜晚",
+                "alias": "地球上最后的夜晚",
                 "start_time": 1760648400000,
-                "end_time": 1761512399000
+                "end_time": 1761512399000,
+                "override": {
+                    "FlagInActivityMain": {
+                        "recognition": {
+                            "param": {
+                                "roi": [
+                                    1010,
+                                    30,
+                                    46,
+                                    25
+                                ],
+                                "only_rec": true
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "3.2": {
+        "version_name": "迁流的盛宴",
+        "start_time": 1761789600000,
+        "end_time": 1765659599000,
+        "activity": {
+            "combat": {
+                "event_type": "SideStory",
+                "start_time": 1761789600000,
+                "end_time": 1765400399000
             }
         }
     }
